@@ -1,0 +1,28 @@
+{
+    "Sheet1": [
+        {
+            "date_added": "Jun 8, 8:48 AM",
+            "book": "Hands-on-Machine-Learning",
+            "chapter": "Chapter 10. Introduction to Artificial Neural Networks with Keras - From Biological to Artificial Neurons - The Perceptron",
+            "highlight": "The Perceptron is one of the simplest ANN architectures, invented in 1957 by Frank Rosenblatt. It is based on a slightly different artificial neuron (see Figure 10-4) called From Biological to Artificial Neurons | 281",
+            "page_number": "281",
+            "has_been_chosen_before": "0"
+        },
+        {
+            "date_added": "Jun 8, 8:54 AM",
+            "book": "Hands-on-Machine-Learning",
+            "chapter": "Chapter 10. Introduction to Artificial Neural Networks with Keras - From Biological to Artificial Neurons - The Perceptron",
+            "highlight": "(or Hebbian learning); that is, the connection weight between two neurons is increased whenever they have the same output.",
+            "page_number": "281",
+            "has_been_chosen_before": "1"
+        },
+        {
+            "date_added": "Jun 8, 8:54 AM",
+            "book": "Hands-on-Machine-Learning",
+            "chapter": "Chapter 10. Introduction to Artificial Neural Networks with Keras - From Biological to Artificial Neurons - The Perceptron",
+            "highlight": "Note that contrary to Logistic Regression classifiers, Perceptrons do not output a class probability; rather, they just make predictions based on a hard threshold.",
+            "page_number": "282",
+            "has_been_chosen_before": "1"
+        }
+    ]
+}
