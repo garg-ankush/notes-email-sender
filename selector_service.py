@@ -3,7 +3,6 @@ import boto3
 import os
 import sys
 import pandas as pd
-import matplotlib.pyplot as plt
 import json
 import csv
 import numpy as np
