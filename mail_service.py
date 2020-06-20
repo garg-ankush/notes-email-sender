@@ -3,8 +3,6 @@ from selector_service import SelectorService
 import smtplib
 from email.message import EmailMessage
 
-select = SelectorService()
-
 
 class MailerService:
     def __init__(self):
