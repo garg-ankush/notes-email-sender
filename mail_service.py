@@ -12,12 +12,12 @@ class MailerService:
     def define_email_parameters(self):
         self.msg['Subject'] = 'Your Highlights and Notes for today'
         self.msg['From'] = "ankifunkey@gmail.com"
-        self.msg['To'] = ["ankifunkey@gmail.com", "shikha.bansal228@gmail.com"]
+        self.msg['To'] = ["example@gmail.com"]
 
     def send_email(self):
         self.msg.set_content(self.content)
         with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:
-            smtp.login("ankifunkey@gmail.com", 'ONSConatE')
+            smtp.login("example@gmail.com", 'password')
             smtp.send_message(self.msg)
         return True
 
