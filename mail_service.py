@@ -15,7 +15,7 @@ class MailerService:
     def define_email_parameters(self):
         self.msg['Subject'] = 'Your Highlights and Notes for today'
         self.msg['From'] = "ankifunkey@gmail.com"
-        self.msg['To'] = "ankifunkey@gmail.com"
+        self.msg['To'] = ["ankifunkey@gmail.com", "shikha.bansal228@gmail.com"]
 
     def email_content(self):
         content = ''
@@ -48,7 +48,12 @@ class MailerService:
         self.send_email()
 
 
+def run_job():
+    composed_email = MailerService()
+    composed_email.run_mailer()
 
+
+run_job()
 
 
 
